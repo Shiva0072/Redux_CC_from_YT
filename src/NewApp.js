@@ -2,7 +2,7 @@ import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { petDecrement, petIncrement } from "./actions/index";
 
-function App() {
+function NewApp() {
   const petCounter = useSelector((state) => state.petCounter);
   const petFavourite = useSelector((state) => state.petFavourite);
   const dispatch = useDispatch();
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default NewApp;
